@@ -1,0 +1,104 @@
+#jumbotron {
+  margin-top: 20px;
+}
+
+.jumbotron-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .jumbotron-content div {
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+
+  .jumbotron-left{
+    text-align: center;
+  }
+
+  .jumbotron-left h1,
+  .jumbotron-left p {
+    color:#fff;
+  }
+
+  .jumbotron-left h1 {
+    font-size: 50px;
+  }
+
+  .subtitulo{
+    font-size: 40px;
+  }
+
+  .registro {
+    font-size: 20px;
+  }
+
+  input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .catalog-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .catalog-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .catalog-images {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .catalog-images img {
+    max-width: 200px;
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .jumbotron-content {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: black;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .jumbotron-right {
+      margin: auto;
+    }
+
+    .jumbotron-right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .registro {
+      margin-top: 80px;
+    }
+  }

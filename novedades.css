@@ -1,0 +1,50 @@
+#novedades {
+    background-image: url('/Images/planeswalkers_image2.png');
+    background-position: bottom;
+    width: auto;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.novedad {
+    width: 700px;
+    text-align: center;
+    margin: 10px;
+    background-color: #333;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .novedad img {
+    margin-top: 25px;
+    width: 600px;
+    height: 400px;
+  }
+
+  .novedad p {
+    font-size: 24px;
+    margin: 25px;
+    color: white;
+  }
+
+  .novedad-texto {
+    display: flex;
+    flex: 1;
+    text-align: justify;
+  }
+
+  @media screen and (max-width: 768px) {
+    #novedades {
+        max-width: fit-content;
+    }
+
+    .novedad img {
+        margin-top: 25px;
+        width: 400px;
+        height: 300px;
+    }
+  }
